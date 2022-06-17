@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [default]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Listeners.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Web(failed)">
+    <classes>
+      <class name="Tests.AddCartTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyAddToCartTest"/>
+        </methods>
+      </class> <!-- Tests.AddCartTest -->
+    </classes>
+  </test> <!-- Web(failed) -->
+</suite> <!-- Failed suite [default] -->

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="default">
+
+	<listeners>
+
+		<listener class-name="Listeners.TestListener">
+		</listener>
+	</listeners>
+
+	<test name="Web">
+
+		<classes>
+			<class name="Tests.AddCartTest" />
+		</classes>
+	</test>
+
+
+</suite>
