@@ -8,6 +8,8 @@ Following libraries should be added in pom.xml
 4. Extent Report - 4.0.0
 5. Maven
 
+   
+
 # About Framework:
 - Framework is designed as Page Object model where all page locators are placed in their respective pages.
 - Each Tests are independent with each other. Can change to tests priority to any order to execute the Test Suite.
