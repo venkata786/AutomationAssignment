@@ -8,7 +8,9 @@ Following libraries should be added in pom.xml
 4. Extent Report - 4.0.0
 5. Maven
 
+
    
+
 
 
 # About Framework:
